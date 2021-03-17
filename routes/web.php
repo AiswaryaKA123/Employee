@@ -14,10 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('addemp');
 });
 
 Route::get('/searchemp',function(){
-    return view('searchemp);
+    return view('searchemp');
 
 });
